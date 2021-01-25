@@ -1,0 +1,493 @@
+        body{
+            
+            background-image: url(https://wallpapershome.com/images/wallpapers/wwdc-2018-2560x1440-white-3d-4k-18705.jpg);
+            font-family: 'Montserrat', sans-serif;
+            background-size: ;
+            overflow-x: hidden;
+            cursor: context-menu
+            
+            
+        }
+      
+
+        #navbar{
+            
+            background-color: transparent;
+            width: 100%;
+            padding-top: 1px
+      
+        }
+        
+        .navbar li{
+            
+            list-style: none;
+            float: right;
+            margin-right: 100px;
+            font-size: 16px;
+            
+     
+        }
+        
+        .navbar li a{
+    
+            color: black;
+            text-decoration: none;
+            
+        
+        } 
+
+        .navbar li:hover{
+         
+            cursor: pointer;
+            border-bottom: 1px solid black;
+        }
+
+        .navbar li a.active{
+            
+            color: #ff0050;
+            border-bottom: 1px solid #ff0050;
+            cursor: auto;
+        }
+       
+        
+        #logo{
+            
+            color: black;
+            font-size: 30px;
+            position: absolute;
+            bottom: 86%;
+            left: 150px;
+            font-family: fantasy;
+        }
+        
+        #logoBild{
+            
+            font-size: 100px;
+            position: absolute;
+            bottom: 87%;
+            left: 30px
+        }
+        
+        .schrift{
+            
+            color: black;
+            font-size: 50px;
+            position: absolute;
+            top: 300px;
+            left: 5%;
+        }
+        
+        
+
+        #WebsiteK{
+    
+            width: 500px;
+            height: 100px;
+            background-color: #ff0050;
+            position: absolute;
+            top: 40%;
+            left: -1%;
+            color: white;
+            text-align: end;
+            font-size: 40px;
+            line-height: 15px;
+            border-radius: 10px;
+            padding: 0px 10px 5px;
+   
+        }
+
+
+        .box-shadow{
+    
+            position: absolute;
+            float: right;
+            width: 500px;
+            right: -5px;
+            top: 300px;
+            box-shadow: 0 0 3em 25px;
+            color: white
+            
+            
+        }
+  
+
+        #middleButton{
+            
+            width: 120px;
+            height: 45px;
+            background-color: white;
+            border-radius: 30px;
+            border: 1px solid #ff0050;
+            cursor: pointer;
+            position: absolute;
+            left: 52%;
+            top: 530px;
+            text-align: center;
+            line-height: 3;
+            transition: 0.3s;
+            font-size: 16px
+     
+        }
+         
+        
+        #middleButton a{
+            
+            text-decoration: none;
+            color: #ff0050;
+            
+    
+        }
+
+
+        #middleButton:hover{
+            
+          
+            font-size: 18px;
+            line-height: 2.7;
+           
+        }
+
+      
+         #button{
+            
+            width: 120px;
+            height: 45px;
+            color: white;
+            background-color: #ff0050;
+            border-radius: 30px;
+            border: 1px solid;
+            cursor: pointer;
+            position: absolute;
+            left: 46%;
+            top: 530px;
+            text-align: center;
+            line-height: 3;
+            transition: 0.3s;
+            font-size: 16px
+            
+        }
+  
+        #button a{
+    
+            color: white;
+            text-decoration: none;
+        }
+
+        #button:hover{
+       
+            font-size: 18px;
+            line-height: 2.7;
+           
+          
+        }
+
+        
+        
+        #contact{
+            
+            background-color: black;
+            position: absolute;
+            width: 100%;
+            height: 35%;
+            top: 1400px;
+            color: white;
+            padding: 10px 0px 15px 10px;
+            left: 0px
+            
+   
+        }
+        
+        .mittlereKasten{
+            
+            width: 600px;
+            height: 320px;
+            float: left;
+            overflow: hidden;
+            margin: 10px;
+            background-color: black;
+            border: 2px solid;
+            font-size: 30px;
+            padding: 0px 0px 0px 15px;
+
+        }
+    
+        #kEins{
+         
+            
+            position: relative;
+            font-size: 30px;
+            width: 500px;
+            
+            
+        }
+        
+        #fontInsta{
+            
+            width: 30px;
+            height: 30px;
+            position: relative;
+            font-size: 30px;
+            bottom: 0px;
+            cursor: pointer;
+            
+            
+        }
+        #insta{
+    
+            font-size: 20px;
+            position: relative;
+            left: 40px;
+            bottom: 52px;
+            font-family: cursive;
+        }
+        
+
+        #insta:hover{
+
+            color: #C13584
+        }
+
+        #fontInsta:hover{
+
+            color: #C13584
+        }
+
+        #fontFace{
+            
+            width: 30px;
+            height: 30px;
+            position: relative;
+            font-size: 30px;
+            bottom: -20px;
+            cursor: pointer;
+            
+        }
+
+        #face{
+    
+            position: relative;
+            left: 40px;
+            font-size: 20px;
+            bottom: 52px;
+            font-family: cursive
+        }
+        
+
+        #face:hover{
+
+            color: #3b5998 
+        }
+        
+
+        #fontFace:hover{
+
+            color: #3b5998 
+        }
+
+        #fontTwitter{
+            
+            width: 30px;
+            height: 30px;
+            position: relative;
+            font-size: 30px;
+            bottom: -35px;
+            cursor: pointer;
+        }
+
+        #twitter{
+    
+            position: relative;
+            left: 40px;
+            font-size: 20px;
+            bottom: 52px;
+            font-family:cursive
+        }
+
+        #twitter:hover{
+            
+            color: #1DA1F2
+        }
+
+        #fontTwitter:hover{
+
+            color: #1DA1F2
+        }
+        #kZwei{
+            
+           
+            position: relative;
+            font-size: 30px;
+            width: 500px;
+            cursor: context-menu
+        }
+        
+        #fontStadt{
+            
+            width: 30px;
+            height: 30px;
+            position: relative;
+            
+     
+        }
+        #stadt{
+    
+            font-size: 20px;
+            position: relative;
+            left: 50px;
+            bottom: 48px;
+        }
+
+
+         #fontEmail{
+            
+            width: 30px;
+            height: 30px;
+            position: relative;
+            bottom: -20px;
+            
+        }
+
+        #email{
+    
+            position: relative;
+            left: 50px;
+            font-size: 20px;
+            bottom: 52px;
+        }
+        
+
+         #fontTelefon{
+            
+            width: 30px;
+            height: 30px;
+            position: relative;
+            bottom: -43px;
+        }
+
+        #telefon{
+    
+            position: relative;
+            left: 50px;
+            font-size: 20px;
+            bottom: 52px;
+        }
+
+
+        #innerbox{
+
+            width: 350px;
+            position: relative;
+            left: 110px
+        }
+
+        .textbox{
+    
+            border-bottom:;
+            overflow: hidden;
+            border-bottom: 1px solid white;
+           
+                
+        }
+
+        .textbox input{
+    
+            border: none;
+            background: none;
+            outline: none;
+            float:left;
+            position: relative;
+            top: 5px;
+            color: white;
+            display: block;
+            margin: 10px;
+    
+        }
+
+        #send{
+    
+            width: 80px;
+            height: 40px;
+            color: white;
+            background-color: #ff0050;
+            border-radius: 30px;
+            cursor: pointer;
+            position: absolute;
+            text-align: center;
+            line-height: 2.5;
+            transition: 0.3s;
+            font-size: 16px;
+            left: 270px;
+            top: 145px
+        }
+        
+        #send a{
+            
+            color: white;
+            text-decoration: none;
+
+        }
+
+
+
+        #send:hover{
+
+            font-size: 18px;
+            line-height: 2;
+            background-color: mediumspringgreen;
+            
+           
+        }
+        #untenButton{
+            
+            width: 130px;
+            height: 45px;
+            text-align: ;
+            float: right;
+            font-size: 18px;
+            position: relative;
+            border: 1px solid white;
+            right: 250px;
+            margin: 10px;
+            line-height: 2.5;
+            transition: 0.3s;
+            padding-left: 10px;
+            padding-right: 5px;
+            cursor: pointer;
+            
+            
+         
+        }
+        
+        #untenButton a{
+    
+            
+            color: white;
+            text-decoration: none;
+    
+        }
+
+        #untenButton:hover{
+            
+            font-size: 19px;
+            line-height: 2.3;
+            
+        }
+        
+        #arrow{
+           
+            position: absolute;
+            top: 0px;
+            right: 10px
+            
+    
+        }
+    
+        #bär{
+
+            position: relative;
+            font-size: 250px;
+            float: right;
+            top: 49px;
+            right: 30px;
+    
+        }
