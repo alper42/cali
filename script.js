@@ -12,3 +12,5 @@ document.getElementById("fontTwitter").onclick = function (){
     
     window.location = "https://www.twitter.com/"
 }
+
+  

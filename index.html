@@ -10,6 +10,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
     
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
@@ -68,11 +69,7 @@
     
     </div>
     
-    <div id="text1">
-    
-        <h1>Web design</h1>
-    
-    </div>
+    <div id="text1"><h1>Web design</h1></div>
     
     <div id="text2">
     
@@ -82,13 +79,12 @@
     
    
     
-    <div  class="containerText">
 
-            <div class="überschrift">Marvel</div>
+    <div data-aos="fade-up-left" class="ueberschrift">Marvel</div>
 
-            <div class="überschrift2">characters</div>
+    <div data-aos="fade-up-right" class="ueberschrift2">characters</div>
 
-    </div>
+    
   
   
   
@@ -104,6 +100,11 @@
     
         <i class="fas fa-gem"></i>
     
+        </div>
+        
+        <div id="alo2">
+    
+        <i class="fab fa-asymmetrik"></i>
     
         </div>
         
@@ -294,7 +295,19 @@
         
     <script type="text/javascript" src="script.js"></script>
     
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     
+      <script>
+          
+        AOS.init({
+            
+            offset:350,
+            duration:600
+            
+        });
+          
+      </script>
+
 </body>
 
  
