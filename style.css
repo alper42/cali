@@ -4,7 +4,9 @@
             font-family: 'Montserrat', sans-serif;
             background-size: ;
             overflow-x: hidden;
-            cursor: context-menu
+            cursor: context-menu;
+            margin: 0px;
+            padding: 0px
             
             
         }
