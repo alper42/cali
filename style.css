@@ -5,7 +5,8 @@
             background-size: ;
             overflow-x: hidden;
             cursor: context-menu;
-            
+            margin: 0;
+            padding: 0;
             
             
         }
@@ -418,7 +419,7 @@
             height: 35%;
             top: 1440px;
             color: white;
-            padding: 10px 0px 35px 10px;
+            padding: 10px 0px 20px 10px;
             left: 0px
             
    
