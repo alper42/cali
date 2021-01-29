@@ -48,16 +48,25 @@
             border-bottom: 1px solid #ff0050;
             cursor: auto;
         }
-       
-        
+        #alo{
+
+            font-size: 250px;
+            float: right;
+            top: 100px;
+            position: absolute;
+            left: 2250px;
+            color: #ff0050
+
+        }
+
         #logo{
             
             color: black;
             font-size: 30px;
             position: absolute;
             bottom: 86%;
-            left: 150px;
-            font-family: fantasy;
+            font-family:fantasy;
+            left: 150px
         }
         
         #logoBild{
@@ -68,13 +77,70 @@
             left: 30px
         }
         
-        .schrift{
-            
+
+        #text1{
+
+            font-size: 40px;
+            position: absolute;
+            justify-content: center;
+            text-align: center;
+            color: #ff0050;
+            left: 500px;
+            top: 150px;
+    
+
+        }
+
+        #text2{
+    
+            font-size: 70px;
+            position: absolute;
+            justify-content: center;
+            text-align: center;
             color: black;
-            font-size: 50px;
+            left: 1000px;
+            top: 145px
+        }
+
+
+
+        .überschrift{
+    
+            font-size: 60px;
+            position: absolute;
+            justify-content: center;
+            text-align: center;
+            color: black;
+            left: 1145px;
+            top: 800px;
+            letter-spacing: 15px;
+            animation: fade 400ms ease-in-out forwards;
+            
+            
+        }
+        
+
+         .überschrift2{
+    
+            font-size: 35px;
+            position: absolute;
+            justify-content: center;
+            text-align: center;
+            color: #ff0050;
+            left: 1190px;
+            top: 865px;
+            animation: text 2s 1;
+            
+        }
+
+        #schrift{
+            
+            color: white;
+            font-size: 40px;
             position: absolute;
             top: 300px;
-            left: 5%;
+            left: 2.5%;
+            top: 90px
         }
         
         
@@ -85,12 +151,12 @@
             height: 100px;
             background-color: #ff0050;
             position: absolute;
-            top: 40%;
+            top: 25%;
             left: -1%;
             color: white;
             text-align: end;
-            font-size: 40px;
-            line-height: 15px;
+            font-size: 70px;
+            line-height: 130px;
             border-radius: 10px;
             padding: 0px 10px 5px;
    
@@ -109,7 +175,23 @@
             
             
         }
-  
+        
+        .container{
+
+            position: absolute;
+            top: 300px;
+            left: -10px;
+            opacity: 0.95
+            
+            
+        }
+
+        
+        #bild{
+
+            top: 300px;
+            position:relative;
+        }
 
         #middleButton{
             
@@ -120,12 +202,13 @@
             border: 1px solid #ff0050;
             cursor: pointer;
             position: absolute;
-            left: 52%;
-            top: 530px;
+            left: 51%;
+            top: 620px;
             text-align: center;
             line-height: 3;
             transition: 0.3s;
-            font-size: 16px
+            font-size: 16px;
+            
      
         }
          
@@ -157,9 +240,9 @@
             border-radius: 30px;
             border: 1px solid;
             cursor: pointer;
-            position: absolute;
-            left: 46%;
-            top: 530px;
+            position:absolute;
+            left: 29%;
+            top: 320px;
             text-align: center;
             line-height: 3;
             transition: 0.3s;
@@ -181,7 +264,145 @@
           
         }
 
-        
+        .honeycomb{
+            
+            
+            display: -webkit-box;
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            -webkit-box-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0;
+            transform: translateY(80px);
+            position: absolute;
+            top: 870px;
+            left: 680px;
+            
+            
+        }
+
+        .honeycomb-cell{
+            
+          -webkit-box-flex: 0;
+          flex: 0 1 250px;
+          max-width: 180px;
+          height: 90px;
+          margin: 65.4px 12.5px 25px;
+          position: relative;
+          padding: 0.5em;
+          text-align: center;
+          z-index: 1;
+          box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.1);
+        }
+
+        .honeycomb-cell_img{
+            
+          object-fit: cover;
+          object-position: center;
+          filter: grayscale(100%);
+            
+        }
+
+        .honeycomb-cell_title{
+           
+            
+          height: 100%;
+          display: -webkit-box;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          flex-direction: column;
+          -webkit-box-pack: center;
+          justify-content: center;
+          -webkit-hyphens: auto;
+          hyphens: auto;
+          word-break: break-word;
+          text-transform: uppercase;
+          color: #fff;
+          font-weight: 700;
+          font-size: 1.75em;
+          transition: opacity 350ms;
+            
+        }
+
+        .honeycomb-cell_title > small{
+            
+          font-weight: 300;
+          margin-top: 0.25em;
+        }
+
+        .honeycomb-cell::before,
+        .honeycomb-cell::after{
+            
+          content: '';
+        }
+
+        .honeycomb-cell::before,
+        .honeycomb-cell::after,
+        .honeycomb-cell_img{
+            
+          top: -50%;
+          left: 0;
+          width: 100%;
+          height: 200%;
+          display: block;
+          position: absolute;
+          -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+          z-index: -1;
+        }
+
+        .honeycomb-cell::before{
+            
+          background: black;
+          transform: scale(1.055);
+          
+        }
+
+        .honeycomb-cell::after{
+            
+          background: black;
+          opacity: 0.7;
+          transition: opacity 350ms;
+          -webkit-transition: opacity 350ms;
+        }
+
+        .honeycomb-cell:hover
+        .honeycomb-cell_title{
+            
+          opacity: 0;
+        }
+
+        .honeycomb-cell:hover
+        .honeycomb-cell_img{
+            
+          filter: grayscale(0%);
+        }
+
+        .honeycomb-cell:hover::before{
+            
+          background: black;
+        }
+
+        .honeycomb-cell:hover::after{
+            
+          opacity: 0;
+        }
+
+        .honeycomb_Hidden{
+            
+          display: none;
+          opacity: 0;
+          width: 250px;
+          margin: 0 12.5px;
+                
+        }
+
         
         #contact{
             
@@ -217,6 +438,7 @@
             position: relative;
             font-size: 30px;
             width: 500px;
+            
             
             
         }
@@ -453,9 +675,10 @@
             padding-left: 10px;
             padding-right: 5px;
             cursor: pointer;
+            box-shadow: inset 0 0 0 0 #fff;
+            transition: ease-out 0.3s;
             
-            
-         
+       
         }
         
         #untenButton a{
@@ -463,23 +686,29 @@
             
             color: white;
             text-decoration: none;
-    
+            
         }
 
         #untenButton:hover{
             
             font-size: 19px;
             line-height: 2.3;
+            box-shadow: inset 300px 0 0 0 #fff;
             
         }
-        
+        #untenButton a:hover{
+
+            color: black;
+            font-weight: bold
+            
+        }
+
         #arrow{
            
             position: absolute;
             top: 0px;
             right: 10px
-            
-    
+      
         }
     
         #bär{
