@@ -95,11 +95,12 @@
             position: absolute;
             justify-content: center;
             text-align: center;
-            color: #ff0050;
             left: 500px;
             top: 150px;
-    
-
+            color: #ff0050;
+            
+        
+        
         }
 
         #text2{
@@ -142,12 +143,14 @@
 
         #schrift{
             
-            color: white;
+            color:dimgrey;
             font-size: 40px;
             position: absolute;
-            top: 300px;
+            top: 80px;
             left: 2.5%;
-            top: 90px
+      
+            
+            
         }
         
         
